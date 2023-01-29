@@ -13,8 +13,10 @@
     </head>
 
     <body dir="rtl">
+      <div class="box">
       <form>
         <div class="rate">
+          <caption><h2> صفحة التقييم</h2><br></caption>
             <p> قيم موقعنا:</p>
             <input type="radio" id="star5" name="rate" value="5" />
             <label for="star5" title="text">5 stars</label>
@@ -30,9 +32,10 @@
          <br>
          <br>
          <br><br><br><br>
-        <label><p> نسعد باستلام تعليقاتكم واقتراحاتكم</p>
-        <textarea name="comments" cols="40" rows="10" placeholder="تعليقات واقتراحات"></textarea>
+        <label><p id="comment"> نسعد باستلام تعليقاتكم واقتراحاتكم:</p><br>
+        <textarea class="comments" name="comments" cols="40" rows="10" placeholder=" تعليقات واقتراحات"></textarea>
         </label>
     </form>
+      </div>
     </body>
 </html>
