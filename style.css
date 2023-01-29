@@ -9,7 +9,11 @@ ol { place-items:inherit;}
 .rate {
     float: right;
     height: 46px;
-    padding: 0 10px;
+    padding: 0px ;
+    padding-right: 100px;
+    text-align: center;
+    padding-top: 20px;
+    
 }
 .rate:not(:checked) > input {
     position:absolute;
@@ -85,6 +89,7 @@ p{
 
 h2{
     color: #36429f;
+    
 }
 
 
@@ -141,4 +146,14 @@ h2{
 #a{
     color: #36429f;
 }
+
+.comments{
+    margin-right: 15px;
+}
+
+#comment{
+    text-align: center;
+    padding-top: 50px;
+}
+
 
