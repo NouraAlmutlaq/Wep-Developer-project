@@ -5,6 +5,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="login.js"></script>
         <!--اسم الصفحة على شريط المتصفح-->
         <title>تسجيل الدخول</title>
     </head>
@@ -19,21 +20,23 @@
                     <tr>
                         <td>
                         <p>اسم الحساب*:</p>
-                        <input class="form-field" type="text" name="user-name" placeholder="  ادخل اسم حسابك" required ></td>
+                        <input class="form-field" id="username" type="text" name="user-name" placeholder="  ادخل اسم حسابك" required ></td> 
                     </tr>
+                    
 
                     <tr>
                         <td>
                         <p>الرقم السري*:</p>
-                        <input class="form-field" type="password" name="The password" placeholder="  *********" required ></td>
+                        <input class="form-field" id="password" type="password" name="The password" placeholder="  *********" required ></td>
+                    </tr>
+                    
+
+                    <tr>
+                        <br><td><p> ليس لديك حساب؟ اذن <a id="a" href="Sign Up.html"> انشئ حساب</a></p></td>
                     </tr>
 
                     <tr>
-                        <td><p> ليس لديك حساب؟ اذن <a id="a" href="Sign Up.html"> انشئ حساب</a></p></td>
-                    </tr>
-
-                    <tr>
-                        <td><input class="submit" type="submit" name="OK" value="دخول"></td>
+                        <br><td><input id="login" class="submit" type="submit" name="OK" value="دخول" onclick="validateForm()"></td>
                     </tr>
 
                     <tr>
